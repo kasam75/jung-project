@@ -7,15 +7,15 @@ public class Main {
         Scanner scanner=new Scanner(System.in);
         System.out.println("🧮계산기 인삿말 입니다. \n 연산후'exit'를 누르시면 계산이 종료됩니다. = scanner");
 
-        System.out.print("첫번째 숫자를 입력해 주세요!");
+        System.out.print("1️⃣첫번째 숫자를 입력해 주세요!");
         String str1=scanner.nextLine();
 
-        System.out.print("두번째 숫자를 입력해주세요!");
+        System.out.print("2️⃣두번째 숫자를 입력해주세요!");
         String str2=scanner.nextLine();
         // 정규 표현식+트라이 케치(가능하면 도전해보기)
-        System.out.print("등호 +,-,*,/를 입력해 주세요");
+        System.out.print("\uD83D\uDD23등호 +,-,*,/를 입력해 주세요");
         String str3 = scanner.nextLine ();
-
+       
         //루프문내에 루프문
         //수식
 
@@ -41,11 +41,11 @@ public class Main {
                 break;
             default:
                 System.out.println("등호를 입력해주세요");
-                //루프문 컨티뉴로
+                //루프문 컨티뉴로 
                 //문자열 비교로
                 return;
         }
-
+      
 
 
 
@@ -55,7 +55,7 @@ public class Main {
         //특정문자 받았을때 빠져나가게(?)
 
         System.out.println ();
-        System.out.println ("값은" + result);
+        System.out.println ("\uD83C\uDD97 값은" + result);
 
 
 
