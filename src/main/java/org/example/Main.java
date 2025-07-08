@@ -21,12 +21,31 @@ public class Main {
 
         int num1 = Integer.parseInt (str1);
         int num2 = Integer.parseInt (str2);
+        int num3 = Integer.parseInt (str3);
+
 
         //조건문 이용 수식받은걸 나눗샘인지 확인
 
         int result=0;
         boolean result2= "+".equals(str3);
 
+        switch (str3) {
+            case "+":
+                System.out.println(num1+num2);
+                break;
+            case "-":
+                System.out.println(num1-num2);
+               break;
+            case "*":
+                System.out.println(num1*num2);
+                break;
+            case "/":
+                 System.out.println(num1/num2);
+                break;
+            default:
+                System.out.println("등호를 입력해주세요");
+               return;
+        }
 
         int sum = num1 + num2;
         System.out.println ();
