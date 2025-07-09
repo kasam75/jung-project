@@ -1,7 +1,5 @@
 package org.example;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
 
 public class Main {
@@ -60,7 +58,7 @@ public class Main {
             System.out.println();
             System.out.println("\uD83C\uDD97 " + num1 + " " + str3 + " " + num2 + " = " + result);
 
-            System.out.println("  계산을 계속 하시겠습니까?\n\n👍Please enter any key👍\n           or    \n  💣exit 입력시 종료💣");
+            System.out.println("  계산을 계속 하시겠습니까?\n\n👍Please Enter Any Key👍\n           or    \n  💣exit 입력시 종료💣");
             String next = scanner.nextLine();
             if (next.equals("exit")) {
                 System.out.println("5💥계산을 종료 합니다.💥");
